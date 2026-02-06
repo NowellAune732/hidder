@@ -4,6 +4,7 @@
 export DEBIAN_FRONTEND=noninteractive
 
 echo "== Update & Upgrade System =="
+sudo -i
 sudo apt update -y && sudo apt upgrade -y
 
 echo "== Install Git =="
